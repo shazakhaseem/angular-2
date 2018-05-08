@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+#current{
+    text-align: center;
+}

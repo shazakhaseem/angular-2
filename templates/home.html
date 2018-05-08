@@ -1,0 +1,22 @@
+<section>
+    <h1>{{name}}</h1>
+    <div class="names" ng-repeat="names in names">
+        <p>{{names}}</p>
+    </div>
+    <button ng-click="show()">Klick här</button>
+</section>
+
+<shaza-is-cool></shaza-is-cool>
+
+<button ng-click="showData()">Hämta data</button>
+<button ng-click="showBilder()">Hämta bilder</button>
+
+<div ng-repeat="item in data">
+    <pre>{{item | json}}</pre>
+     
+</div>
+
+<div class="bilder" ng-repeat="bild in bilder">
+    <h4>{{bild.title}}</h4>
+    <img ng-src="{{bild.url}}">
+</div>
